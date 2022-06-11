@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Spline Sans Mono', monospace;
+}
+
+body{
+    background-color: pink;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.main h4{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main h4{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main .btn{
+    width: 50px;
+    height: 30px;
+    outline: none;
+    border: none;
+    background-color: palevioletred;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px palevioletred, 0px 0px 6px palevioletred;
+    cursor: pointer;
+}
+
+.main .btn:active{
+    box-shadow: 0px 0px 3px palevioletred, 0px 0px 6px palevioletred, 0px 0px 10px palevioletred ;
+}
+
+.main .yes{
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    transform: translateX(-50%);
+}
+
+.main .no{
+    position: absolute;
+    top: 55%;
+    left: 60%;
+    transform: translateX(-50%);
+}
